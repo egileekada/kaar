@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant&display=swap");
+
+@font-face {
+  font-family: "bluu-next";
+  src: url("./assets/fonts/bluu-next/BluuNext-Titling.otf") format("otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.logo_container {
+  width: 68px;
+  height: 60px;
+}
+ul.navbar li {
+  color: rgba(35, 32, 27, 0.8);
+}
+.light_brown_text {
+  color: rgba(35, 32, 27, 0.7);
+}
+.circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 200px;
+  border: 2px solid #23201b;
+}
+.square {
+  height: 120px;
+  width: 120px;
+  border: 2px solid #23201b;
+  background: rgba(255, 255, 255, 0.04);
+}
+.darkbrown_container {
+  width: 488px;
+  height: 400px;
+}
+.bluu-next {
+  font-family: "bluu-next";
+}
+.assistant {
+  font-family: "Assistant" serif;
+}
+.shaded_white {
+  color: rgba(255, 255, 255, 0.88);
+}
+.list_circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  border: 1px solid #23201b;
+}
+.straight_line {
+  width: 4px;
+  height: 63px;
+  background: #ffffff;
+}
+.testimonial_card_image {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #ffffff;
+  border-radius: 60px;
+}
+.subscribe_input {
+  outline: none;
+  box-shadow: none;
+}
+.contact_form {
+  outline: none;
+  box-shadow: none;
+  border-bottom: 1px solid white;
+  color: #ffffff;
+}
+.contact_form_btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid #ffffff;
+}
+.contact_line1 {
+  width: 2px;
+  height: 570px;
+  max-height: 600px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.contact_rectangle {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+}
+.contact_rectangle2 {
+  width: 120px;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.04);
+}
+.footer {
+    background: url('./assets/footer.png');
+    background-position: center;
+    background-size: cover;
+}
+.footer a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@media only screen and (max-width: 599px) {
+  .darkbrown_container {
+    width: 95%;
+    height: 400px;
+  }
+  .about .circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    border: 2px solid #23201b;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .darkbrown_container {
+    width: 55%;
+    height: 300px;
+  }
+  .testimonial_card_image {
+  width: 90px;
+  height: 90px;
+  border: 3px solid #ffffff;
+  border-radius: 45px;
+}
+}
