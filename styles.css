@@ -99,11 +99,11 @@ ul.navbar li {
   height: 120px;
   background: rgba(255, 255, 255, 0.04);
 }
-.footer {
+/* .footer {
     background: url('./assets/footer.png');
     background-position: center;
     background-size: cover;
-}
+} */
 .footer a {
     color: rgba(255, 255, 255, 0.8);
 }

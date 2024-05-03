@@ -8,8 +8,11 @@ import Link from 'next/link'
 
 const Footer = () => {
 return (
-  <div className="w-12/12 footer py-16 md:py-24 px-4 md:px-8 flex flex-col lg:flex-row justify-around">
-    <div className="mb-10 lg:mb-0">
+  <div className="w-12/12 footer relative py-16 md:py-24 px-4 md:px-8 flex flex-col lg:flex-row justify-around">
+    <div className=' absolute inset-0 '>
+      <img src={"/footer.png"} alt='footimg' className=' w-full h-full z-0 object-cover ' />
+    </div>
+    <div className="mb-10 relative z-10 lg:mb-0">
       <Link href="/">
         <a>
           <Image src={logo} alt="logo" />
@@ -55,7 +58,7 @@ return (
         </li>
       </ul>
     </div> */}
-    <div className="mx-5 mb-10 lg:mb-0">
+    <div className="mx-5 mb-10 relative z-10  lg:mb-0">
       <ul>
         <li className="text-white font-black text-lg mb-8">Company</li>
         <li className="mb-3">
@@ -70,7 +73,7 @@ return (
         </li>
       </ul>
     </div>
-    <div className="mx-5 mb-10 lg:mb-0">
+    <div className="mx-5 mb-10 relative z-10  lg:mb-0">
       <ul>
         <li className="text-white font-black text-lg mb-8">Get in Touch</li>
         <li className="mb-3">
