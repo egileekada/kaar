@@ -107,8 +107,8 @@ export default function About() {
                 <Image src={teammobile} alt="team" />
               </div>
             </div>
-            <div className="lg:w-11/12 mx-auto md:mx-0 w-auto flex flex-col ml-4 md:ml-20 pr-20 justify-center items-center order-1 md:order-2">
-              <div className="bluu-next text-white text-2xl md:text-5xl w-5/5">
+            <div className="lg:w-11/12 md:mx-0 w-full flex flex-col ml-4 md:ml-20 lg:px-0 px-6 lg:pr-20 justify-center items-center order-1 md:order-2">
+              <div className="bluu-next text-white text-2xl md:text-5xl lg:w-5/5">
                 THE TEAM
               </div>
               <div className="assistant text-base shaded_white mt-3 w-auto">
@@ -163,7 +163,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            
+
             {/* <div className="w-full rounded-xl flex mt-10 flex-col justify-center pb-14 px-6 py-6 shadow-2xl " >
               <div className="bluu-next text-black text-center text-2xl md:text-5xl w-5/5">
                 About Associate Director
