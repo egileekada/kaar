@@ -12,7 +12,7 @@ import Subscribe from "../components/subscribe";
 
 
 export default function Contact() {
-  
+
   const [loading, setloading] = useState(false);
   const {
     register,
@@ -134,6 +134,9 @@ export default function Contact() {
                 <ul>
                   <li className="text-white text-base mb-3">Weekdays</li>
                   <li className="text-white text-base mb-3">8am - 5pm</li>
+                  <li className="text-white text-base mb-3 mr-6">
+                    Office address — 502 Cornerstone Ct, Hillsborough, NC 27278, United States
+                  </li>
                   <li className="text-white text-base mb-3">
                     Closed during weekends
                   </li>
@@ -145,7 +148,7 @@ export default function Contact() {
                 </span>
                 <ul>
                   <li className="text-white text-base mb-3">
-                    (619) 353 - 5598
+                    (252)-297-1927
                   </li>
                   <li className="text-white text-base mb-3">
                     support@kaardesigns.com

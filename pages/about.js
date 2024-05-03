@@ -9,10 +9,10 @@ import line from "../assets/home/line.svg";
 import customerservice from "../assets/home/customerservice.svg";
 import warranty from "../assets/home/warranty.svg";
 import consult from "../assets/home/consult.svg";
-import ceo from "../assets/about/Ceo2.jpeg";
+import ceo from "../assets/about/ceoone.jpeg";
 import main from "../assets/about/workers.jpg";
 import Director from "../assets/about/Director.jpeg"; 
-import pcworking from "../assets/about/pcworking.png";
+import pcworking from "../assets/about/two.jpeg";
 import living from "../assets/home/living.png";
 import quotes from "../assets/about/quotes.svg";
 import eclipse from "../assets/home/eclipse.svg";
@@ -154,7 +154,7 @@ export default function About() {
                 About CEO
               </div>
               <div className="w-full flex flex-col items-center text-left justify-center mt-5" >  
-                <p className="assistant text-base text-black mt-3 w-auto text-left lg:text-center lg:w-4/6 "><span className=" font-semibold" >Christian Allan:</span> Started off the leading career in San Diego, California. Christian Allan has been able to create a niche for himself and the company with multiple jobs completed both in and out of the country. He is a great leader and an exceptional architect</p>
+                <p className="assistant text-base text-black mt-3 w-auto text-left lg:text-center lg:w-4/6 "><span className=" font-semibold" >Jeffrey E Cook:</span> Jeffrey E Cook started in Hillsborough, North Carolina</p>
                 <div className=" lg:w-56 lg:h-56 rounded-lg ">
                   <Image src={ceo} alt="ceo" className=" rounded-lg object-cover" />
                 </div>
@@ -163,7 +163,7 @@ export default function About() {
                 </div>
               </div>
             </div>
-            <div className="w-full rounded-xl flex mt-10 flex-col justify-center pb-14 px-6 py-6 shadow-2xl " >
+            {/* <div className="w-full rounded-xl flex mt-10 flex-col justify-center pb-14 px-6 py-6 shadow-2xl " >
               <div className="bluu-next text-black text-center text-2xl md:text-5xl w-5/5">
                 About Associate Director
               </div>
@@ -173,10 +173,10 @@ export default function About() {
                   <Image src={Director} alt="ceo" className=" rounded-lg object-cover" />
                 </div>
                 <div className=" ml-10" > 
-                  {/* <p className="assistant text-xl text-black font-bold mt-3 w-auto" ></p> */}
+                  <p className="assistant text-xl text-black font-bold mt-3 w-auto" ></p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="w-12/12 py-12 flex flex-col lg:flex-row justify-center">
             <div className="w-11/12 mx-auto md:mx-0 lg:w-6/12 flex flex-col pt-8">

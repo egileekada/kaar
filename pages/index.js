@@ -5,7 +5,7 @@ import Link from 'next/link'
 import Navbar from "../components/navbar";
 import Footer from "../components/footer";
 
-import hero from "../assets/home/hero.png";
+import hero from "../assets/home/three.jpeg";
 import line from "../assets/home/line.svg";
 import customerservice from "../assets/home/customerservice.svg";
 import warranty from "../assets/home/warranty.svg";
