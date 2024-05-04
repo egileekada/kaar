@@ -156,7 +156,7 @@ export default function About() {
               <div className="w-full flex flex-col items-center text-left justify-center mt-5" >  
                 {/* <p className="assistant text-base text-black mt-3 w-auto text-left lg:text-center lg:w-4/6 "><span className=" font-semibold" >Jeffrey E Cook:</span> Jeffrey E Cook started in Hillsborough, North Carolina</p> */}
 
-                <p className="assistant text-base text-black mt-3 w-auto text-left lg:text-center lg:w-4/6 "><span className=" font-semibold" >Jeffrey E Cook:</span> Started off the leading career in San Diego, California. Christian Allan has been able to create a niche for himself and the company with multiple jobs completed both in and out of the country. He is a great leader and an exceptional architect</p>
+                <p className="assistant text-base text-black mt-3 w-auto text-left lg:text-center lg:w-4/6 "><span className=" font-semibold" >Jeffrey E Cook:</span>Started off the leading career in Hillsborough, North Carolina. Jeffrey has been able to create a niche for himself and the company with multiple jobs completed both in and out of the country. He is a great leader and an exceptional architect</p>
                 <div className=" lg:w-56 lg:h-56 rounded-lg ">
                   <Image src={ceo} alt="ceo" className=" rounded-lg object-cover" />
                 </div>
