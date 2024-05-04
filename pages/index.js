@@ -26,7 +26,7 @@ import { useRouter } from "next/router";
 
 export default function Home() {
   const router = useRouter();
-  
+
   return (
     <div className="min-h-screen">
       <Head>
@@ -38,13 +38,13 @@ export default function Home() {
         <Navbar />
         <div className="w-11/12 mx-auto lg:w-12/12 flex flex-col md:flex-row relative items-center">
           <div className="darkbrown_container mx-auto md:mx-0 bg-darkbrown md:z-20 md:absolute md:left-0 px-8 pt-8 md:p-12">
-            <div className="bluu-next text-2xl lg:text-5xl text-white mb-6">
-              We Help You Build Modern Commercial Buildings
+            <div className="bluu-next text-2xl lg:text-3xl text-white mb-6">
+              We help you design and build  Residential buildings, commercial buildings, multipurpose buildings, gas stations, renovations and landscaping
             </div>
-            <div className="assistant shaded_white mb-6 w-11/12">
+            {/* <div className="assistant shaded_white mb-6 w-11/12">
               Our professional designers help you build elegant and lasting
               commercial buildings.
-            </div>
+            </div> */}
             <button
               onClick={() => router.push("/contact-us")}
               className="text-darkbrown bg-white w-48 h-14 font-bold"
