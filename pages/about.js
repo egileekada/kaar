@@ -171,7 +171,7 @@ export default function About() {
                 About Associate Director
               </div>
               <div className="w-full flex flex-col items-center justify-center mt-5" >  
-                <p className="assistant text-base  text-left text-black mt-3 w-auto lg:text-center lg:w-4/6 "><span className=" font-semibold" >Christian Allan:</span> Working closely with the CEO over the years, Jeffrey Cook has been a great asset to the company and an excellent leader as well. He is able to deliver the best and has a proven track record of completed jobs.</p>
+                <p className="assistant text-base  text-left text-black mt-3 w-auto lg:text-center lg:w-4/6 "><span className=" font-semibold" >Christian Allan:</span> Working closely with the CEO over the years, Christian Allan has been a great asset to the company and an excellent leader as well. He is able to deliver the best and has a proven track record of completed jobs.</p>
                 <div className=" lg:w-56 lg:h-56 rounded-lg ">
                   <Image src={Director} alt="ceo" className=" rounded-lg object-cover" />
                 </div>
